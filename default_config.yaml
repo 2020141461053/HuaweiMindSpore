@@ -3,10 +3,10 @@ enable_modelarts: False
 data_url: ""
 train_url: ""
 checkpoint_url: ""
-data_path: "/cache/data"
+data_path: "/home/ma-user/work/VGG/cifar-10-batches-bin"
 output_path: "/cache/train"
 load_path: "/cache/checkpoint_path"
-checkpoint_path: './checkpoint/'
+checkpoint_path: 'train/'
 checkpoint_file: './checkpoint/checkpoint_alexnet-30_1562.ckpt'
 device_target: Ascend
 enable_profiling: False
